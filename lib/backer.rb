@@ -11,6 +11,10 @@ class Backer
   
   def backed_projects
     @backed_projects  
+  end
+  
+  def backers
+    @backers 
   end 
   
 end 
