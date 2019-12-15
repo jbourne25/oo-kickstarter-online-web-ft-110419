@@ -9,8 +9,8 @@ class Project
     @backers = []
   end
   
-  def backers 
-    @backers 
+  def self.backers 
+    @@backers 
   end 
   
 end 
