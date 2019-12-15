@@ -14,7 +14,7 @@ class Backer
   end
   
   def back_project(project)
-    #
+    #we want all new projects to be added to @backed projects as well
     @backers << Backer.new(project)
   end 
   
