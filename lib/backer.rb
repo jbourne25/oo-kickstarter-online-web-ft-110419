@@ -1,6 +1,6 @@
 class Backer
   
-  @@backed_projects
+  @@backed_projects = []
   
   attr_accessor :name 
   
